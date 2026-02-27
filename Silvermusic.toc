@@ -1,0 +1,22 @@
+## Interface: 120000, 120001
+## Title: Silvermusic
+## Author: OldGromm
+## Version: 1.00
+## IconTexture: 255126
+## Notes: Changes the music in Silvermoon City in Midnight.
+## Category: Media
+## Category-deDE: Medien
+## Category-esES: Medios
+## Category-esMX: Medios
+## Category-frFR: Médias
+## Category-itIT: Media
+## Category-koKR: 미디어
+## Category-ptBR: Mídia
+## Category-ruRU: Медиа
+## Category-zhCN: 材质
+## Category-zhTW: 材質
+## LoadSavedVariablesFirst: 1
+## SavedVariables: SilvermusicDB_Options
+
+Silvermusic.lua
+SilvermusicOptions.lua
