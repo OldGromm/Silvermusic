@@ -131,6 +131,17 @@ end
 
 
 
+Silvermusic_Event_ZoneChange = CreateFrame("Frame")
+Silvermusic_Event_ZoneChange:RegisterEvent("PLAYER_ENTERING_WORLD")
+Silvermusic_Event_ZoneChange:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+Silvermusic_Event_ZoneChange:SetScript("OnEvent", function(_, event)
+    local choice = SilvermusicDB_Options["Playerchoice"] or 1
+    Silvermusic_ChangeMusic(choice)
+end)
+
+
+
+
 Silvermusic_Event_SoundKitFinish = CreateFrame("Frame")
 Silvermusic_Event_SoundKitFinish:RegisterEvent("SOUNDKIT_FINISHED")
 Silvermusic_Event_SoundKitFinish:SetScript("OnEvent", function(_, event, soundHandle)
